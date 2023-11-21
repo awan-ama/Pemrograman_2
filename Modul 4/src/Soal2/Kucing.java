@@ -1,7 +1,7 @@
 package Soal2;
 
 public class Kucing extends HewanPeliharaan {
-    private String warnaBulu;
+    public String warnaBulu;
 
     public Kucing(String n, String r, String w) {
         super.nama = n;

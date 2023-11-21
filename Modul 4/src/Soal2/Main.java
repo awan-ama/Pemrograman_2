@@ -9,7 +9,6 @@ public class Main {
         System.out.println("2 = Anjing");
         System.out.print("Masukkan pilihan : ");
         int pilihan = input.nextInt();
-        input.nextLine();
 
         if (pilihan == 1){
             String nama, ras, warnaBulu;
@@ -41,8 +40,9 @@ public class Main {
             Anjing dog = new Anjing(nama, ras, warnaBulu, kemampuan);
             dog.displayDetailAnjing();
         }
+
         else {
-            System.out.println("Tidak ada");
+            System.out.println("Salah");
         }
     }
 }
